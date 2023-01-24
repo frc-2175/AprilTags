@@ -20,7 +20,7 @@ while(True):
    		debug=0
 	)
 
-	detectedTags = at_detector.detect(formatFrame, estimate_tag_pose=True, tag_size=0.0762)
+	detectedTags = at_detector.detect(formatFrame, estimate_tag_pose=True, tag_size=0.0762, camera_params=)
 
 	if len(detectedTags) > 0:
 		for detectedTag in detectedTags:
