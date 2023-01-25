@@ -11,7 +11,7 @@ while(True):
 	formatFrame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY);
 
 	at_detector = Detector(
-		families="tag36h11",
+		families="tag16h5",
   		nthreads=1,
    		quad_decimate=1.0,
    		quad_sigma=0.0,
