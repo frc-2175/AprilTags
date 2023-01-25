@@ -20,14 +20,16 @@ while(True):
    		debug=0
 	)
 
-	detectedTags = at_detector.detect(formatFrame, estimate_tag_pose=True, tag_size=0.0762, camera_params=[502.8289, 503.4731, 319.3317, 230.6123])
-
-	if len(detectedTags) > 0:
-		for detectedTag in detectedTags:
-			print(detectedTag.center)
-			finalFrame = cv2.circle(frame, (round(detectedTag.center[0]), round(detectedTag.center[1])), radius=5, color=(0, 0, 255), thickness=-1)
-	else:
-		finalFrame = frame
+	try:
+		detectedTags = at_detector.detect(formatFrame, estimate_tag_pose=True, tag_size=0.0762, camera_params=[502.8289, 503.4731, 319.3317, 230.6123])
+		if len(detectedTags) > 0:
+			for detectedTag in detectedTags:
+				print(detectedTag.center)
+				finalFrame = cv2.circle(frame, (round(detectedTag.center[0]), round(detectedTag.center[1])), radius=5, color=(0, 0, 255), thickness=-1)
+		else:
+			finalFrame = frame
+	except:
+		print("Couldn't find any AprilTags")
 	
 	#Display the frame
 	cv2.imshow('frame', finalFrame)
