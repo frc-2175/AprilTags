@@ -1,0 +1,238 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+Warning: Graphics timeout occurred. To share details of this issue with MathWorks technical
+support, please include that this is an unresponsive graphics client with your service request. 
+> In movegui (line 132)
+In images.internal.app.utilities/Dialog/create (line 69)
+In images.internal.app.utilities/OkCancelDialog/create (line 31)
+In vision.internal.calibration.webTool.ExportDlg (line 44)
+In vision.internal.calibration.webTool/CameraCalibrationTool/export (line 515)
+In vision.internal.calibration.webTool.CalibrationTab>@(es,ed)export(this.Parent) (line 540)
+In internal.Callback.execute (line 128)
+In matlab.ui.internal.toolstrip.base/Action/PeerEventCallback (line 852)
+In matlab.ui.internal.toolstrip.base.ActionInterface>@(event,data)PeerEventCallback(this,event,data) (line 41)
+In viewmodel.internal.factory.ManagerFactoryProducer>@(src,event)callback(src,viewmodel.internal.factory.ManagerFactoryProducer.convertStructToEventData(event)) (line 105)
+In movegui (line 132)
+In images.internal.app.utilities/Dialog/create (line 69)
+In images.internal.app.utilities/OkCancelDialog/create (line 31)
+In vision.internal.calibration.webTool.ExportDlg (line 44)
+In vision.internal.calibration.webTool/CameraCalibrationTool/export (line 515)
+In vision.internal.calibration.webTool.CalibrationTab>@(es,ed)export(this.Parent) (line 540)
+In internal.Callback.execute (line 128)
+In matlab.ui.internal.toolstrip.base/Action/PeerEventCallback (line 852)
+In matlab.ui.internal.toolstrip.base.ActionInterface>@(event,data)PeerEventCallback(this,event,data) (line 41)
+In viewmodel.internal.factory.ManagerFactoryProducer>@(src,event)callback(src,viewmodel.internal.factory.ManagerFactoryProducer.convertStructToEventData(event)) (line 105)
+In movegui (line 132)
+In images.internal.app.utilities/Dialog/create (line 69)
+In images.internal.app.utilities/OkCancelDialog/create (line 31)
+In vision.internal.calibration.webTool.ExportDlg (line 44)
+In vision.internal.calibration.webTool/CameraCalibrationTool/export (line 515)
+In vision.internal.calibration.webTool.CalibrationTab>@(es,ed)export(this.Parent) (line 540)
+In internal.Callback.execute (line 128)
+In matlab.ui.internal.toolstrip.base/Action/PeerEventCallback (line 852)
+In matlab.ui.internal.toolstrip.base.ActionInterface>@(event,data)PeerEventCallback(this,event,data) (line 41)
+In viewmodel.internal.factory.ManagerFactoryProducer>@(src,event)callback(src,viewmodel.internal.factory.ManagerFactoryProducer.convertStructToEventData(event)) (line 105)
+In vision.internal.calibration.webTool/CameraCalibrationTool/plotErrors (line 1964)
+In vision.internal.calibration.webTool/CameraCalibrationTool/drawPlots (line 1900)
+In vision.internal.calibration.webTool/CameraCalibrationTool/calibrate (line 491)
+In vision.internal.calibration.webTool.CalibrationTab>@(obj)calibrate(this.Parent) (line 516)
+In vision.internal.calibration.webTool/CalibrationTab/protectOnDelete (line 250)
+In vision.internal.calibration.webTool.CalibrationTab>@(es,ed)this.protectOnDelete(@(obj)calibrate(this.Parent)) (line 516)
+In internal.Callback.execute (line 128)
+In matlab.ui.internal.toolstrip.base/Action/PeerEventCallback (line 852)
+In matlab.ui.internal.toolstrip.base.ActionInterface>@(event,data)PeerEventCallback(this,event,data) (line 41)
+In viewmodel.internal.factory.ManagerFactoryProducer>@(src,event)callback(src,viewmodel.internal.factory.ManagerFactoryProducer.convertStructToEventData(event)) (line 105) 
+
+cameraParams = 
+
+  cameraParameters with properties:
+
+   Camera Intrinsics
+                         Intrinsics: [1×1 cameraIntrinsics]
+
+   Camera Extrinsics
+                  PatternExtrinsics: [17×1 rigidtform3d]
+
+   Accuracy of Estimation
+              MeanReprojectionError: 0.1609
+                 ReprojectionErrors: [70×2×17 double]
+                  ReprojectedPoints: [70×2×17 double]
+
+   Calibration Settings
+                        NumPatterns: 17
+                  DetectedKeypoints: [70×17 logical]
+                        WorldPoints: [70×2 double]
+                         WorldUnits: 'millimeters'
+                       EstimateSkew: 0
+    NumRadialDistortionCoefficients: 2
+       EstimateTangentialDistortion: 0
+
+Warning: Graphics timeout occurred. To share details of this issue with MathWorks technical
+support, please include that this is an unresponsive graphics client with your service request. 
+> In vision.internal.calibration.webTool/CameraCalibrationTool/updatePlots (line 1881)
+In vision.internal.calibration.webTool/CameraCalibrationTool/doSelection (line 1667)
+In vision.internal.calibration.webTool.CameraCalibrationTool>@(varargin)this.doSelection(varargin{:}) (line 1361)
+In images.internal.app.browser.Browser>@(src,evt)notify(self,'SelectionChanged',evt) (line 161)
+In images.internal.app.browser/Model/select (line 397)
+In images.internal.app.browser/Browser/select (line 258)
+In vision.internal.calibration.webTool/BoardThumbnailBrowser/selectItem (line 245)
+In vision.internal.calibration.webTool/CameraCalibrationTool/calibrate (line 497)
+In vision.internal.calibration.webTool.CalibrationTab>@(obj)calibrate(this.Parent) (line 516)
+In vision.internal.calibration.webTool/CalibrationTab/protectOnDelete (line 250)
+In vision.internal.calibration.webTool.CalibrationTab>@(es,ed)this.protectOnDelete(@(obj)calibrate(this.Parent)) (line 516)
+In internal.Callback.execute (line 128)
+In matlab.ui.internal.toolstrip.base/Action/PeerEventCallback (line 852)
+In matlab.ui.internal.toolstrip.base.ActionInterface>@(event,data)PeerEventCallback(this,event,data) (line 41)
+In viewmodel.internal.factory.ManagerFactoryProducer>@(src,event)callback(src,viewmodel.internal.factory.ManagerFactoryProducer.convertStructToEventData(event)) (line 105) 
+>> fhty
+
+			Standard Errors of Estimated Camera Parameters
+			----------------------------------------------
+
+Intrinsics
+----------
+Focal length (pixels):   [  502.8289 +/- 0.5307      503.4731 +/- 0.5423  ]
+Principal point (pixels):[  319.3317 +/- 0.1501      230.6123 +/- 0.3570  ]
+Radial distortion:       [    0.1801 +/- 0.0023       -0.3338 +/- 0.0075  ]
+
+Extrinsics
+----------
+Rotation vectors:
+                         [    0.2579 +/- 0.0010        0.1816 +/- 0.0008       -0.0615 +/- 0.0002  ]
+                         [    0.8393 +/- 0.0008        0.2153 +/- 0.0005        0.0458 +/- 0.0002  ]
+                         [   -0.0725 +/- 0.0012        0.0683 +/- 0.0009       -0.0973 +/- 0.0002  ]
+                         [    0.6102 +/- 0.0007        0.3207 +/- 0.0006       -1.3086 +/- 0.0002  ]
+                         [    0.7632 +/- 0.0008        0.1292 +/- 0.0005       -0.5635 +/- 0.0002  ]
+                         [    0.5302 +/- 0.0006        0.7170 +/- 0.0009       -2.0916 +/- 0.0003  ]
+                         [    0.5552 +/- 0.0007        0.1579 +/- 0.0006       -1.0247 +/- 0.0002  ]
+                         [   -0.1340 +/- 0.0012        0.1208 +/- 0.0011        0.0622 +/- 0.0002  ]
+                         [    0.3699 +/- 0.0009        0.1599 +/- 0.0007       -0.0917 +/- 0.0002  ]
+                         [    0.1107 +/- 0.0006        0.3969 +/- 0.0010       -3.0252 +/- 0.0002  ]
+                         [    0.7872 +/- 0.0008        0.2420 +/- 0.0005       -0.7123 +/- 0.0002  ]
+                         [    0.4999 +/- 0.0010        0.2079 +/- 0.0007        0.0287 +/- 0.0002  ]
+                         [    0.8766 +/- 0.0008        0.3672 +/- 0.0004       -0.3550 +/- 0.0002  ]
+                         [    0.0353 +/- 0.0012        0.1383 +/- 0.0009       -0.2754 +/- 0.0002  ]
+                         [    0.1598 +/- 0.0011        0.1424 +/- 0.0008       -0.4449 +/- 0.0002  ]
+                         [    0.3747 +/- 0.0008        0.2676 +/- 0.0007       -0.2932 +/- 0.0002  ]
+                         [    0.0057 +/- 0.0013        0.1354 +/- 0.0010       -0.0132 +/- 0.0002  ]
+
+Translation vectors (millimeters):
+                         [  -76.2315 +/- 0.1066      -11.6565 +/- 0.2563      360.8036 +/- 0.3906  ]
+                         [  -64.7872 +/- 0.0814      -79.1454 +/- 0.1935      271.1342 +/- 0.3039  ]
+                         [  -84.1778 +/- 0.0948      -59.1734 +/- 0.2238      324.5578 +/- 0.3629  ]
+                         [ -105.9217 +/- 0.0924      131.4252 +/- 0.2138      311.6228 +/- 0.3395  ]
+                         [ -120.1959 +/- 0.0852       17.0904 +/- 0.2054      293.1963 +/- 0.3353  ]
+                         [  -24.7978 +/- 0.0986      117.7501 +/- 0.2362      338.9875 +/- 0.3289  ]
+                         [ -129.8581 +/- 0.0941      103.8816 +/- 0.2165      316.7660 +/- 0.3573  ]
+                         [ -130.4777 +/- 0.1093      -30.0128 +/- 0.2570      377.3460 +/- 0.3977  ]
+                         [  -71.5295 +/- 0.1017       -6.6044 +/- 0.2431      341.5485 +/- 0.3731  ]
+                         [   78.5835 +/- 0.0761      119.0972 +/- 0.1815      271.3269 +/- 0.3054  ]
+                         [ -114.0501 +/- 0.0945       25.5365 +/- 0.2292      325.7710 +/- 0.3613  ]
+                         [  -75.5109 +/- 0.0950      -86.5398 +/- 0.2288      320.2895 +/- 0.3505  ]
+                         [  -72.8350 +/- 0.0849      -27.0117 +/- 0.2058      286.2896 +/- 0.2966  ]
+                         [  -96.5668 +/- 0.0959      -25.5502 +/- 0.2317      332.1003 +/- 0.3742  ]
+                         [ -112.4777 +/- 0.0928      -21.4705 +/- 0.2278      323.0224 +/- 0.3659  ]
+                         [  -61.0121 +/- 0.1102       26.8396 +/- 0.2610      370.0953 +/- 0.3951  ]
+                         [ -113.0903 +/- 0.1108       -1.9886 +/- 0.2664      383.1144 +/- 0.4173  ]
+fhty
+
+			Standard Errors of Estimated Camera Parameters
+			----------------------------------------------
+
+Intrinsics
+----------
+Focal length (pixels):   [  502.8289 +/- 0.5307      503.4731 +/- 0.5423  ]
+Principal point (pixels):[  319.3317 +/- 0.1501      230.6123 +/- 0.3570  ]
+Radial distortion:       [    0.1801 +/- 0.0023       -0.3338 +/- 0.0075  ]
+
+Extrinsics
+----------
+Rotation vectors:
+                         [    0.2579 +/- 0.0010        0.1816 +/- 0.0008       -0.0615 +/- 0.0002  ]
+                         [    0.8393 +/- 0.0008        0.2153 +/- 0.0005        0.0458 +/- 0.0002  ]
+                         [   -0.0725 +/- 0.0012        0.0683 +/- 0.0009       -0.0973 +/- 0.0002  ]
+                         [    0.6102 +/- 0.0007        0.3207 +/- 0.0006       -1.3086 +/- 0.0002  ]
+                         [    0.7632 +/- 0.0008        0.1292 +/- 0.0005       -0.5635 +/- 0.0002  ]
+                         [    0.5302 +/- 0.0006        0.7170 +/- 0.0009       -2.0916 +/- 0.0003  ]
+                         [    0.5552 +/- 0.0007        0.1579 +/- 0.0006       -1.0247 +/- 0.0002  ]
+                         [   -0.1340 +/- 0.0012        0.1208 +/- 0.0011        0.0622 +/- 0.0002  ]
+                         [    0.3699 +/- 0.0009        0.1599 +/- 0.0007       -0.0917 +/- 0.0002  ]
+                         [    0.1107 +/- 0.0006        0.3969 +/- 0.0010       -3.0252 +/- 0.0002  ]
+                         [    0.7872 +/- 0.0008        0.2420 +/- 0.0005       -0.7123 +/- 0.0002  ]
+                         [    0.4999 +/- 0.0010        0.2079 +/- 0.0007        0.0287 +/- 0.0002  ]
+                         [    0.8766 +/- 0.0008        0.3672 +/- 0.0004       -0.3550 +/- 0.0002  ]
+                         [    0.0353 +/- 0.0012        0.1383 +/- 0.0009       -0.2754 +/- 0.0002  ]
+                         [    0.1598 +/- 0.0011        0.1424 +/- 0.0008       -0.4449 +/- 0.0002  ]
+                         [    0.3747 +/- 0.0008        0.2676 +/- 0.0007       -0.2932 +/- 0.0002  ]
+                         [    0.0057 +/- 0.0013        0.1354 +/- 0.0010       -0.0132 +/- 0.0002  ]
+
+Translation vectors (millimeters):
+                         [  -76.2315 +/- 0.1066      -11.6565 +/- 0.2563      360.8036 +/- 0.3906  ]
+                         [  -64.7872 +/- 0.0814      -79.1454 +/- 0.1935      271.1342 +/- 0.3039  ]
+                         [  -84.1778 +/- 0.0948      -59.1734 +/- 0.2238      324.5578 +/- 0.3629  ]
+                         [ -105.9217 +/- 0.0924      131.4252 +/- 0.2138      311.6228 +/- 0.3395  ]
+                         [ -120.1959 +/- 0.0852       17.0904 +/- 0.2054      293.1963 +/- 0.3353  ]
+                         [  -24.7978 +/- 0.0986      117.7501 +/- 0.2362      338.9875 +/- 0.3289  ]
+                         [ -129.8581 +/- 0.0941      103.8816 +/- 0.2165      316.7660 +/- 0.3573  ]
+                         [ -130.4777 +/- 0.1093      -30.0128 +/- 0.2570      377.3460 +/- 0.3977  ]
+                         [  -71.5295 +/- 0.1017       -6.6044 +/- 0.2431      341.5485 +/- 0.3731  ]
+                         [   78.5835 +/- 0.0761      119.0972 +/- 0.1815      271.3269 +/- 0.3054  ]
+                         [ -114.0501 +/- 0.0945       25.5365 +/- 0.2292      325.7710 +/- 0.3613  ]
+                         [  -75.5109 +/- 0.0950      -86.5398 +/- 0.2288      320.2895 +/- 0.3505  ]
+                         [  -72.8350 +/- 0.0849      -27.0117 +/- 0.2058      286.2896 +/- 0.2966  ]
+                         [  -96.5668 +/- 0.0959      -25.5502 +/- 0.2317      332.1003 +/- 0.3742  ]
+                         [ -112.4777 +/- 0.0928      -21.4705 +/- 0.2278      323.0224 +/- 0.3659  ]
+                         [  -61.0121 +/- 0.1102       26.8396 +/- 0.2610      370.0953 +/- 0.3951  ]
+                         [ -113.0903 +/- 0.1108       -1.9886 +/- 0.2664      383.1144 +/- 0.4173  ]
+fhty
+
+			Standard Errors of Estimated Camera Parameters
+			----------------------------------------------
+
+Intrinsics
+----------
+Focal length (pixels):   [  502.8289 +/- 0.5307      503.4731 +/- 0.5423  ]
+Principal point (pixels):[  319.3317 +/- 0.1501      230.6123 +/- 0.3570  ]
+Radial distortion:       [    0.1801 +/- 0.0023       -0.3338 +/- 0.0075  ]
+
+Extrinsics
+----------
+Rotation vectors:
+                         [    0.2579 +/- 0.0010        0.1816 +/- 0.0008       -0.0615 +/- 0.0002  ]
+                         [    0.8393 +/- 0.0008        0.2153 +/- 0.0005        0.0458 +/- 0.0002  ]
+                         [   -0.0725 +/- 0.0012        0.0683 +/- 0.0009       -0.0973 +/- 0.0002  ]
+                         [    0.6102 +/- 0.0007        0.3207 +/- 0.0006       -1.3086 +/- 0.0002  ]
+                         [    0.7632 +/- 0.0008        0.1292 +/- 0.0005       -0.5635 +/- 0.0002  ]
+                         [    0.5302 +/- 0.0006        0.7170 +/- 0.0009       -2.0916 +/- 0.0003  ]
+                         [    0.5552 +/- 0.0007        0.1579 +/- 0.0006       -1.0247 +/- 0.0002  ]
+                         [   -0.1340 +/- 0.0012        0.1208 +/- 0.0011        0.0622 +/- 0.0002  ]
+                         [    0.3699 +/- 0.0009        0.1599 +/- 0.0007       -0.0917 +/- 0.0002  ]
+                         [    0.1107 +/- 0.0006        0.3969 +/- 0.0010       -3.0252 +/- 0.0002  ]
+                         [    0.7872 +/- 0.0008        0.2420 +/- 0.0005       -0.7123 +/- 0.0002  ]
+                         [    0.4999 +/- 0.0010        0.2079 +/- 0.0007        0.0287 +/- 0.0002  ]
+                         [    0.8766 +/- 0.0008        0.3672 +/- 0.0004       -0.3550 +/- 0.0002  ]
+                         [    0.0353 +/- 0.0012        0.1383 +/- 0.0009       -0.2754 +/- 0.0002  ]
+                         [    0.1598 +/- 0.0011        0.1424 +/- 0.0008       -0.4449 +/- 0.0002  ]
+                         [    0.3747 +/- 0.0008        0.2676 +/- 0.0007       -0.2932 +/- 0.0002  ]
+                         [    0.0057 +/- 0.0013        0.1354 +/- 0.0010       -0.0132 +/- 0.0002  ]
+
+Translation vectors (millimeters):
+                         [  -76.2315 +/- 0.1066      -11.6565 +/- 0.2563      360.8036 +/- 0.3906  ]
+                         [  -64.7872 +/- 0.0814      -79.1454 +/- 0.1935      271.1342 +/- 0.3039  ]
+                         [  -84.1778 +/- 0.0948      -59.1734 +/- 0.2238      324.5578 +/- 0.3629  ]
+                         [ -105.9217 +/- 0.0924      131.4252 +/- 0.2138      311.6228 +/- 0.3395  ]
+                         [ -120.1959 +/- 0.0852       17.0904 +/- 0.2054      293.1963 +/- 0.3353  ]
+                         [  -24.7978 +/- 0.0986      117.7501 +/- 0.2362      338.9875 +/- 0.3289  ]
+                         [ -129.8581 +/- 0.0941      103.8816 +/- 0.2165      316.7660 +/- 0.3573  ]
+                         [ -130.4777 +/- 0.1093      -30.0128 +/- 0.2570      377.3460 +/- 0.3977  ]
+                         [  -71.5295 +/- 0.1017       -6.6044 +/- 0.2431      341.5485 +/- 0.3731  ]
+                         [   78.5835 +/- 0.0761      119.0972 +/- 0.1815      271.3269 +/- 0.3054  ]
+                         [ -114.0501 +/- 0.0945       25.5365 +/- 0.2292      325.7710 +/- 0.3613  ]
+                         [  -75.5109 +/- 0.0950      -86.5398 +/- 0.2288      320.2895 +/- 0.3505  ]
+                         [  -72.8350 +/- 0.0849      -27.0117 +/- 0.2058      286.2896 +/- 0.2966  ]
+                         [  -96.5668 +/- 0.0959      -25.5502 +/- 0.2317      332.1003 +/- 0.3742  ]
+                         [ -112.4777 +/- 0.0928      -21.4705 +/- 0.2278      323.0224 +/- 0.3659  ]
+                         [  -61.0121 +/- 0.1102       26.8396 +/- 0.2610      370.0953 +/- 0.3951  ]
+                         [ -113.0903 +/- 0.1108       -1.9886 +/- 0.2664      383.1144 +/- 0.4173  ]
+>> 

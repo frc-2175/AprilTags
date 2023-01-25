@@ -11,7 +11,7 @@ while(True):
 	formatFrame = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY);
 
 	at_detector = Detector(
-		families="tag16h5",
+		families='tag16h5',
   		nthreads=1,
    		quad_decimate=1.0,
    		quad_sigma=0.0,
@@ -20,11 +20,11 @@ while(True):
    		debug=0
 	)
 
-	detectedTags = at_detector.detect(formatFrame, estimate_tag_pose=True, tag_size=0.0762, camera_params=[0, 0, 0, 0])
+	detectedTags = at_detector.detect(formatFrame, estimate_tag_pose=True, tag_size=0.0762, camera_params=[502.8289, 503.4731, 319.3317, 230.6123])
 
 	if len(detectedTags) > 0:
 		for detectedTag in detectedTags:
-			print(detectedTag.pose_t)
+			print(detectedTag.center)
 			finalFrame = cv2.circle(frame, (round(detectedTag.center[0]), round(detectedTag.center[1])), radius=5, color=(0, 0, 255), thickness=-1)
 	else:
 		finalFrame = frame
